@@ -1,4 +1,4 @@
-# かけいぼ - 個人用家計簿ウェブアプリ 📊
+# Kakeibo - Personal Finance Web Application 📊
 
 <div align="center">
 
@@ -7,206 +7,206 @@
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/username/kakeibo)
 ![GitHub last commit](https://img.shields.io/github/last-commit/username/kakeibo)
 
-**ミニマリスティックでモダンな個人用家計簿アプリケーション**
+**A minimalistic and modern personal finance management application**
 
 [📱 Live Demo](https://username.github.io/kakeibo) | [📚 Documentation](./docs/) | [🐛 Issues](https://github.com/username/kakeibo/issues)
 
 </div>
 
-## ✨ 特徴
+## ✨ Features
 
-- 🎨 **モダンUI**: Mantine v7による美しいインターフェース
-- 🌙 **ダークモード**: 完全対応の切り替え機能
-- 📱 **レスポンシブ**: モバイル・タブレット・デスクトップ完全対応
-- ⚡ **高速**: React 18 + Vite による高速な動作
-- 🧪 **品質保証**: 28テストケースによる包括的なテストカバレッジ
-- 💾 **データ永続化**: ローカルファイルによる確実なデータ保存
-- 📊 **可視化**: 豊富なグラフと統計機能
+- 🎨 **Modern UI**: Beautiful interface powered by Mantine v7
+- 🌙 **Dark Mode**: Complete dark/light theme support
+- 📱 **Responsive**: Fully optimized for mobile, tablet, and desktop
+- ⚡ **Fast**: High-performance powered by React 18 + Vite
+- 🧪 **Quality Assured**: Comprehensive test coverage with 28+ test cases
+- 💾 **Data Persistence**: Reliable local file storage
+- 📊 **Visualization**: Rich graphs and statistical insights
 
-## 🚀 クイックスタート
+## 🚀 Quick Start
 
-### 必要要件
+### Prerequisites
 
-- Node.js 18.0.0 以上
-- npm または yarn
+- Node.js 18.0.0 or higher
+- npm or yarn
 
-### インストール
+### Installation
 
 ```bash
-# リポジトリをクローン
+# Clone the repository
 git clone https://github.com/username/kakeibo.git
 cd kakeibo
 
-# 依存関係をインストール
+# Install dependencies
 npm install
 
-# 開発サーバーを起動
+# Start development server
 npm run dev
 ```
 
-開発サーバーが起動したら、ブラウザで `http://localhost:5173` にアクセスしてください。
+After the development server starts, open your browser and navigate to `http://localhost:5173`.
 
-## 📋 主要機能
+## 📋 Key Features
 
-### 💰 収支管理
-- ✅ 収入・支出の記録、編集、削除
-- ✅ カテゴリ別の分類と管理
-- ✅ 日付・金額・説明の詳細記録
-- ✅ リアルタイム残高計算
+### 💰 Transaction Management
+- ✅ Record, edit, and delete income and expenses
+- ✅ Category-based classification and management
+- ✅ Detailed recording with date, amount, and description
+- ✅ Real-time balance calculation
 
-### 📊 統計・分析
-- ✅ 月別収支推移グラフ
-- ✅ カテゴリ別支出・収入分析
-- ✅ 期間指定での詳細分析
-- ✅ 貯蓄率の自動計算
+### 📊 Statistics & Analytics
+- ✅ Monthly income/expense trend charts
+- ✅ Category-wise spending and income analysis
+- ✅ Period-specific detailed analysis
+- ✅ Automatic savings rate calculation
 
-### 🎛️ カテゴリ管理
-- ✅ 収入・支出カテゴリの作成・編集・削除
-- ✅ カラーコード設定とビジュアル管理
-- ✅ 使用状況の追跡機能
+### 🎛️ Category Management
+- ✅ Create, edit, and delete income/expense categories
+- ✅ Color coding and visual management
+- ✅ Usage tracking functionality
 
-### 🔍 検索・フィルタ
-- ✅ 日付、カテゴリ、金額での絞り込み
-- ✅ ソート機能（日付、金額、カテゴリ）
-- ✅ 一括選択・削除機能
+### 🔍 Search & Filter
+- ✅ Filter by date, category, and amount
+- ✅ Sort functionality (date, amount, category)
+- ✅ Bulk selection and deletion
 
-## 🏗️ 技術スタック
+## 🏗️ Tech Stack
 
-### フロントエンド
-- **React 18** - モダンなUIライブラリ
-- **TypeScript** - 型安全な開発
-- **Mantine v7** - 豊富なUIコンポーネント
-- **Recharts** - データ可視化ライブラリ
-- **Vite** - 高速ビルドツール
+### Frontend
+- **React 18** - Modern UI library
+- **TypeScript** - Type-safe development
+- **Mantine v7** - Rich UI component library
+- **Recharts** - Data visualization library
+- **Vite** - Fast build tool
 
-### 開発・テスト
-- **Vitest** - 高速テストランナー
-- **React Testing Library** - コンポーネントテスト
-- **ESLint + Prettier** - コード品質管理
+### Development & Testing
+- **Vitest** - Fast test runner
+- **React Testing Library** - Component testing
+- **ESLint + Prettier** - Code quality management
 
-### データ管理
-- **JSON** - ローカルファイルストレージ
-- **LocalStorage** - フォールバック機能
+### Data Management
+- **JSON** - Local file storage
+- **LocalStorage** - Fallback functionality
 
-## 📁 プロジェクト構成
+## 📁 Project Structure
 
 ```
 kakeibo/
 ├── src/
-│   ├── components/          # UIコンポーネント
+│   ├── components/          # UI Components
 │   │   ├── Dashboard.tsx
 │   │   ├── TransactionForm.tsx
 │   │   ├── TransactionList.tsx
 │   │   ├── CategoryManager.tsx
 │   │   ├── Statistics.tsx
 │   │   ├── Layout.tsx
-│   │   └── __tests__/       # コンポーネントテスト
+│   │   └── __tests__/       # Component tests
 │   ├── contexts/           # React Context
-│   ├── hooks/              # カスタムフック
-│   ├── utils/              # ユーティリティ関数
-│   │   └── __tests__/      # ユニットテスト
-│   ├── test/               # テスト設定・統合テスト
-│   └── types/              # TypeScript型定義
-├── public/                 # 静的ファイル
-├── docs/                   # ドキュメント
-└── dist/                   # ビルド成果物
+│   ├── hooks/              # Custom hooks
+│   ├── utils/              # Utility functions
+│   │   └── __tests__/      # Unit tests
+│   ├── test/               # Test configuration & integration tests
+│   └── types/              # TypeScript type definitions
+├── public/                 # Static files
+├── docs/                   # Documentation
+└── dist/                   # Build artifacts
 ```
 
-## 🧪 テスト
+## 🧪 Testing
 
-包括的なテストスイートで品質を保証しています。
+Quality is assured through comprehensive test suites.
 
 ```bash
-# 全テスト実行
+# Run all tests
 npm test
 
-# テストをUIモードで実行
+# Run tests in UI mode
 npm run test:ui
 
-# カバレッジ確認
+# Check coverage
 npm run test:coverage
 ```
 
-### テストカバレッジ
-- ✅ **DataManager**: 24テストケース（CRUD操作、バリデーション）
-- ✅ **TransactionForm**: 4基本テスト + 28包括テスト
-- ✅ **統合テスト**: ワークフロー全体のテスト
+### Test Coverage
+- ✅ **DataManager**: 24 test cases (CRUD operations, validation)
+- ✅ **TransactionForm**: 4 basic tests + 28 comprehensive tests
+- ✅ **Integration Tests**: End-to-end workflow testing
 
-## 🔧 ビルド・デプロイ
+## 🔧 Build & Deploy
 
 ```bash
-# プロダクションビルド
+# Production build
 npm run build
 
-# ビルド結果のプレビュー
+# Preview build results
 npm run preview
 
-# リント実行
+# Run linting
 npm run lint
 ```
 
-## 📊 使用方法
+## 📊 Usage Guide
 
-### 1. 取引の記録
-1. サイドバーから「取引追加」を選択
-2. 収入または支出を選択
-3. 金額、カテゴリ、日付、説明を入力
-4. 「保存」ボタンをクリック
+### 1. Recording Transactions
+1. Select "Add Transaction" from the sidebar
+2. Choose income or expense
+3. Enter amount, category, date, and description
+4. Click the "Save" button
 
-### 2. カテゴリ管理
-1. サイドバーから「カテゴリ管理」を選択
-2. 「新規カテゴリ」ボタンをクリック
-3. カテゴリ名、カラーを設定
-4. 保存して完了
+### 2. Category Management
+1. Select "Category Management" from the sidebar
+2. Click the "New Category" button
+3. Set category name and color
+4. Save to complete
 
-### 3. 統計確認
-1. サイドバーから「統計」を選択
-2. 期間を指定して分析
-3. グラフとチャートで可視化された情報を確認
+### 3. Statistics Review
+1. Select "Statistics" from the sidebar
+2. Specify analysis period
+3. Review visualized information in graphs and charts
 
-## 🛡️ セキュリティ
+## 🛡️ Security
 
-- ✅ **データローカル化**: 全データはローカルに保存
-- ✅ **入力検証**: フォーム入力の厳密なバリデーション
-- ✅ **XSS対策**: React標準のエスケープ処理
-- ✅ **依存関係**: 定期的なセキュリティアップデート
+- ✅ **Local Data Storage**: All data is stored locally
+- ✅ **Input Validation**: Strict validation of form inputs
+- ✅ **XSS Protection**: React's standard escaping mechanisms
+- ✅ **Dependencies**: Regular security updates
 
-## 🤝 コントリビューション
+## 🤝 Contributing
 
-プロジェクトへの貢献を歓迎します！
+Contributions to the project are welcome!
 
-1. リポジトリをフォーク
-2. フィーチャーブランチを作成 (`git checkout -b feature/amazing-feature`)
-3. 変更をコミット (`git commit -m 'Add some amazing feature'`)
-4. ブランチにプッシュ (`git push origin feature/amazing-feature`)
-5. プルリクエストを作成
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Create a Pull Request
 
-### 開発ガイドライン
-- TypeScript strict mode を遵守
-- コミット前に `npm test` でテスト確認
-- ESLint + Prettier でコード品質を維持
+### Development Guidelines
+- Follow TypeScript strict mode
+- Run `npm test` before committing
+- Maintain code quality with ESLint + Prettier
 
-## 📝 ライセンス
+## 📝 License
 
-このプロジェクトは [MIT License](LICENSE) の下で公開されています。
+This project is licensed under the [MIT License](LICENSE).
 
-## 📞 サポート
+## 📞 Support
 
-- 🐛 **バグ報告**: [Issues](https://github.com/username/kakeibo/issues)
-- 💡 **機能要望**: [Feature Requests](https://github.com/username/kakeibo/issues/new?template=feature_request.md)
-- 📧 **一般的な質問**: [Discussions](https://github.com/username/kakeibo/discussions)
+- 🐛 **Bug Reports**: [Issues](https://github.com/username/kakeibo/issues)
+- 💡 **Feature Requests**: [Feature Requests](https://github.com/username/kakeibo/issues/new?template=feature_request.md)
+- 📧 **General Questions**: [Discussions](https://github.com/username/kakeibo/discussions)
 
-## 🙏 謝辞
+## 🙏 Acknowledgments
 
-- [Mantine](https://mantine.dev/) - 素晴らしいUIコンポーネントライブラリ
-- [Recharts](https://recharts.org/) - 柔軟なグラフライブラリ
-- [React Testing Library](https://testing-library.com/) - テストユーティリティ
+- [Mantine](https://mantine.dev/) - Excellent UI component library
+- [Recharts](https://recharts.org/) - Flexible charting library
+- [React Testing Library](https://testing-library.com/) - Testing utilities
 
 ---
 
 <div align="center">
 
-**⭐ このプロジェクトが役に立ったら、ぜひスターをお願いします！**
+**⭐ If this project helped you, please consider giving it a star!**
 
 Made with ❤️ by [Claude Code](https://claude.ai/code)
 
