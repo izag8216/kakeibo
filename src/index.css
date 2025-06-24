@@ -1,0 +1,237 @@
+/* Mantine CSS reset and custom styles */
+html {
+  color-scheme: light;
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "Meiryo", "メイリオ", sans-serif;
+  background-color: var(--mantine-color-gray-0);
+  color: var(--mantine-color-gray-9);
+}
+
+/* Custom gradients for a more vibrant look */
+.gradient-bg {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.income-gradient {
+  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+}
+
+.expense-gradient {
+  background: linear-gradient(135deg, #ff512f 0%, #f09819 100%);
+}
+
+.balance-gradient {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Glassmorphism effect */
+.glass-card {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Custom animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.pulse-animation {
+  animation: pulse 2s infinite;
+}
+
+/* Hover effects */
+.hover-lift {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--mantine-color-gray-1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--mantine-color-gray-4);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--mantine-color-gray-6);
+}
+
+/* Force visibility of sidebar navigation text - maximum specificity */
+[data-mantine-color-scheme="light"] .mantine-AppShell-navbar .mantine-NavLink-label,
+[data-mantine-color-scheme="dark"] .mantine-AppShell-navbar .mantine-NavLink-label,
+.mantine-AppShell-navbar .mantine-NavLink-label {
+  color: white !important;
+}
+
+[data-mantine-color-scheme="light"] .mantine-AppShell-navbar .mantine-NavLink-description,
+[data-mantine-color-scheme="dark"] .mantine-AppShell-navbar .mantine-NavLink-description,
+.mantine-AppShell-navbar .mantine-NavLink-description {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+[data-mantine-color-scheme="light"] .mantine-AppShell-navbar [data-active="true"] .mantine-NavLink-label,
+[data-mantine-color-scheme="dark"] .mantine-AppShell-navbar [data-active="true"] .mantine-NavLink-label,
+.mantine-AppShell-navbar [data-active="true"] .mantine-NavLink-label {
+  color: white !important;
+}
+
+[data-mantine-color-scheme="light"] .mantine-AppShell-navbar [data-active="true"] .mantine-NavLink-description,
+[data-mantine-color-scheme="dark"] .mantine-AppShell-navbar [data-active="true"] .mantine-NavLink-description,
+.mantine-AppShell-navbar [data-active="true"] .mantine-NavLink-description {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Override any theme-specific text colors in sidebar - maximum specificity */
+[data-mantine-color-scheme="light"] .mantine-AppShell-navbar .mantine-NavLink-root,
+[data-mantine-color-scheme="dark"] .mantine-AppShell-navbar .mantine-NavLink-root,
+.mantine-AppShell-navbar .mantine-NavLink-root {
+  color: white !important;
+}
+
+/* Force all text in sidebar to be white */
+[data-mantine-color-scheme="light"] .mantine-AppShell-navbar,
+[data-mantine-color-scheme="dark"] .mantine-AppShell-navbar,
+.mantine-AppShell-navbar {
+  color: white !important;
+}
+
+[data-mantine-color-scheme="light"] .mantine-AppShell-navbar *,
+[data-mantine-color-scheme="dark"] .mantine-AppShell-navbar *,
+.mantine-AppShell-navbar * {
+  color: inherit !important;
+}
+
+/* Custom sidebar navigation link styling - more specific */
+.sidebar-nav-link > .mantine-NavLink-body > .mantine-NavLink-label {
+  color: white !important;
+  font-weight: 500 !important;
+}
+
+.sidebar-nav-link > .mantine-NavLink-body > .mantine-NavLink-description {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.sidebar-nav-link[data-active="true"] > .mantine-NavLink-body > .mantine-NavLink-description {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Fallback with broader selectors */
+.sidebar-nav-link .mantine-NavLink-label {
+  color: white !important;
+  font-weight: 500 !important;
+}
+
+.sidebar-nav-link .mantine-NavLink-description {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+/* Custom sidebar navigation - force dark text for visibility */
+.sidebar-nav-link-custom {
+  color: #1a1a1a !important;
+}
+
+.sidebar-nav-link-custom * {
+  color: #1a1a1a !important;
+  -webkit-text-fill-color: #1a1a1a !important;
+  opacity: 1 !important;
+}
+
+/* Specific targeting for Mantine Text components in sidebar */
+.sidebar-nav-link-custom .mantine-Text-root {
+  color: #1a1a1a !important;
+  -webkit-text-fill-color: #1a1a1a !important;
+}
+
+/* Light mode specific override */
+[data-mantine-color-scheme="light"] .sidebar-nav-link-custom,
+[data-mantine-color-scheme="light"] .sidebar-nav-link-custom * {
+  color: #1a1a1a !important;
+  -webkit-text-fill-color: #1a1a1a !important;
+}
+
+/* Ultimate fallback - force all text in AppShell navbar to be dark */
+[data-mantine-color-scheme="light"] .mantine-AppShell-navbar,
+[data-mantine-color-scheme="light"] .mantine-AppShell-navbar *,
+[data-mantine-color-scheme="light"] .mantine-AppShell-navbar .mantine-Text-root {
+  color: #1a1a1a !important;
+  -webkit-text-fill-color: #1a1a1a !important;
+}
+
+/* Override any theme variables that might interfere */
+[data-mantine-color-scheme="light"] .mantine-AppShell-navbar {
+  --mantine-color-text: #1a1a1a !important;
+  --mantine-color-dimmed: #2d2d2d !important;
+}
+
+/* Legacy NavLink fallback */
+.sidebar-nav-link * {
+  color: white !important;
+}
+
+.sidebar-nav-link .mantine-NavLink-description * {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+/* Dark mode specific styles */
+[data-mantine-color-scheme="dark"] {
+  /* Override card backgrounds in dark mode */
+  .mantine-Card-root {
+    background-color: var(--mantine-color-dark-6);
+    border-color: var(--mantine-color-dark-4);
+  }
+
+  /* Dark mode gradients */
+  .income-gradient {
+    background: linear-gradient(135deg, #0d9488 0%, #065f46 100%);
+  }
+
+  .expense-gradient {
+    background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);
+  }
+
+  .balance-gradient {
+    background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+  }
+
+  /* Dark mode glass effect */
+  .glass-card {
+    background: rgba(45, 55, 72, 0.25);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}

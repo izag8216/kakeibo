@@ -1,0 +1,303 @@
+{
+  "transactions": [
+    {
+      "id": "tx_1750648312660_nclfdbuff",
+      "date": "2025-06-10",
+      "type": "expense",
+      "amount": 13159,
+      "category": "expense-transport",
+      "description": "バス代",
+      "createdAt": "2025-06-23T03:11:52.660Z",
+      "updatedAt": "2025-06-23T03:11:52.660Z"
+    },
+    {
+      "id": "tx_1750648312660_yjz1d3eyy",
+      "date": "2025-05-31",
+      "type": "expense",
+      "amount": 23802,
+      "category": "expense-entertainment",
+      "description": "映画代",
+      "createdAt": "2025-06-23T03:11:52.660Z",
+      "updatedAt": "2025-06-23T03:11:52.660Z"
+    },
+    {
+      "id": "tx_1750648312660_m2wpj1i3f",
+      "date": "2025-05-28",
+      "type": "expense",
+      "amount": 3350,
+      "category": "expense-medical",
+      "description": "薬代",
+      "createdAt": "2025-06-23T03:11:52.660Z",
+      "updatedAt": "2025-06-23T03:11:52.660Z"
+    },
+    {
+      "id": "tx_1750648312660_v052fl4ox",
+      "date": "2025-05-22",
+      "type": "expense",
+      "amount": 11767,
+      "category": "expense-clothing",
+      "description": "クリーニング代",
+      "createdAt": "2025-06-23T03:11:52.660Z",
+      "updatedAt": "2025-06-23T03:11:52.660Z"
+    },
+    {
+      "id": "tx_1750648312660_1vb7us8eh",
+      "date": "2025-05-19",
+      "type": "income",
+      "amount": 215438,
+      "category": "income-freelance",
+      "description": "ライティング案件",
+      "createdAt": "2025-06-23T03:11:52.660Z",
+      "updatedAt": "2025-06-23T03:11:52.660Z"
+    },
+    {
+      "id": "tx_1750648312660_a3vj0murc",
+      "date": "2025-05-18",
+      "type": "expense",
+      "amount": 15679,
+      "category": "expense-transport",
+      "description": "バス代",
+      "createdAt": "2025-06-23T03:11:52.660Z",
+      "updatedAt": "2025-06-23T03:11:52.660Z"
+    },
+    {
+      "id": "tx_1750648312659_9qow5q8ch",
+      "date": "2025-05-14",
+      "type": "income",
+      "amount": 266266,
+      "category": "income-investment",
+      "description": "投資信託分配金",
+      "createdAt": "2025-06-23T03:11:52.659Z",
+      "updatedAt": "2025-06-23T03:11:52.659Z"
+    },
+    {
+      "id": "tx_1750648312659_8ep9xa11v",
+      "date": "2025-05-14",
+      "type": "income",
+      "amount": 305626,
+      "category": "income-other",
+      "description": "還付金",
+      "createdAt": "2025-06-23T03:11:52.659Z",
+      "updatedAt": "2025-06-23T03:11:52.659Z"
+    },
+    {
+      "id": "tx_1750648312660_3xh8kq0g6",
+      "date": "2025-05-12",
+      "type": "income",
+      "amount": 254898,
+      "category": "income-salary",
+      "description": "基本給",
+      "createdAt": "2025-06-23T03:11:52.660Z",
+      "updatedAt": "2025-06-23T03:11:52.660Z"
+    },
+    {
+      "id": "tx_1750648312660_l841qmo8n",
+      "date": "2025-05-06",
+      "type": "expense",
+      "amount": 68673,
+      "category": "expense-housing",
+      "description": "修繕費",
+      "createdAt": "2025-06-23T03:11:52.660Z",
+      "updatedAt": "2025-06-23T03:11:52.660Z"
+    },
+    {
+      "id": "tx_1750648312659_mfeo0tfy0",
+      "date": "2025-05-02",
+      "type": "expense",
+      "amount": 3840,
+      "category": "expense-medical",
+      "description": "健康診断",
+      "createdAt": "2025-06-23T03:11:52.659Z",
+      "updatedAt": "2025-06-23T03:11:52.659Z"
+    },
+    {
+      "id": "tx_1750648312660_xwgyf2cza",
+      "date": "2025-05-02",
+      "type": "expense",
+      "amount": 8887,
+      "category": "expense-medical",
+      "description": "薬代",
+      "createdAt": "2025-06-23T03:11:52.660Z",
+      "updatedAt": "2025-06-23T03:11:52.660Z"
+    },
+    {
+      "id": "tx_1750648312659_zorjk1pkq",
+      "date": "2025-04-22",
+      "type": "expense",
+      "amount": 18077,
+      "category": "expense-utilities",
+      "description": "ガス代",
+      "createdAt": "2025-06-23T03:11:52.659Z",
+      "updatedAt": "2025-06-23T03:11:52.659Z"
+    },
+    {
+      "id": "tx_1750648312660_vajxou3gk",
+      "date": "2025-04-20",
+      "type": "expense",
+      "amount": 11032,
+      "category": "expense-other",
+      "description": "消耗品",
+      "createdAt": "2025-06-23T03:11:52.660Z",
+      "updatedAt": "2025-06-23T03:11:52.660Z"
+    },
+    {
+      "id": "tx_1750648312660_6wh0wm88u",
+      "date": "2025-04-17",
+      "type": "income",
+      "amount": 304341,
+      "category": "income-bonus",
+      "description": "夏季賞与",
+      "createdAt": "2025-06-23T03:11:52.660Z",
+      "updatedAt": "2025-06-23T03:11:52.660Z"
+    },
+    {
+      "id": "tx_1750648312659_g3xiz5c29",
+      "date": "2025-04-08",
+      "type": "income",
+      "amount": 303628,
+      "category": "income-other",
+      "description": "キャッシュバック",
+      "createdAt": "2025-06-23T03:11:52.659Z",
+      "updatedAt": "2025-06-23T03:11:52.659Z"
+    },
+    {
+      "id": "tx_1750648312659_m7x23pj76",
+      "date": "2025-04-01",
+      "type": "expense",
+      "amount": 3687,
+      "category": "expense-clothing",
+      "description": "靴購入",
+      "createdAt": "2025-06-23T03:11:52.659Z",
+      "updatedAt": "2025-06-23T03:11:52.659Z"
+    },
+    {
+      "id": "tx_1750648312660_zgzwext8i",
+      "date": "2025-03-30",
+      "type": "income",
+      "amount": 293863,
+      "category": "income-salary",
+      "description": "基本給",
+      "createdAt": "2025-06-23T03:11:52.660Z",
+      "updatedAt": "2025-06-23T03:11:52.660Z"
+    },
+    {
+      "id": "tx_1750648312660_4o94ef9dg",
+      "date": "2025-03-29",
+      "type": "expense",
+      "amount": 5332,
+      "category": "expense-medical",
+      "description": "薬代",
+      "createdAt": "2025-06-23T03:11:52.660Z",
+      "updatedAt": "2025-06-23T03:11:52.660Z"
+    },
+    {
+      "id": "tx_1750648312660_48dnuoli4",
+      "date": "2025-03-27",
+      "type": "expense",
+      "amount": 14945,
+      "category": "expense-other",
+      "description": "雑費",
+      "createdAt": "2025-06-23T03:11:52.660Z",
+      "updatedAt": "2025-06-23T03:11:52.660Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "income-salary",
+      "name": "給与",
+      "type": "income",
+      "color": "#10b981"
+    },
+    {
+      "id": "income-bonus",
+      "name": "ボーナス",
+      "type": "income",
+      "color": "#059669"
+    },
+    {
+      "id": "income-freelance",
+      "name": "副業",
+      "type": "income",
+      "color": "#34d399"
+    },
+    {
+      "id": "income-investment",
+      "name": "投資収益",
+      "type": "income",
+      "color": "#6ee7b7"
+    },
+    {
+      "id": "income-other",
+      "name": "その他収入",
+      "type": "income",
+      "color": "#a7f3d0"
+    },
+    {
+      "id": "expense-food",
+      "name": "食費",
+      "type": "expense",
+      "color": "#ef4444"
+    },
+    {
+      "id": "expense-transport",
+      "name": "交通費",
+      "type": "expense",
+      "color": "#f97316"
+    },
+    {
+      "id": "expense-housing",
+      "name": "住居費",
+      "type": "expense",
+      "color": "#eab308"
+    },
+    {
+      "id": "expense-utilities",
+      "name": "光熱費",
+      "type": "expense",
+      "color": "#06b6d4"
+    },
+    {
+      "id": "expense-entertainment",
+      "name": "娯楽費",
+      "type": "expense",
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "expense-medical",
+      "name": "医療費",
+      "type": "expense",
+      "color": "#ec4899"
+    },
+    {
+      "id": "expense-education",
+      "name": "教育費",
+      "type": "expense",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "expense-clothing",
+      "name": "衣服費",
+      "type": "expense",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "expense-insurance",
+      "name": "保険料",
+      "type": "expense",
+      "color": "#6b7280"
+    },
+    {
+      "id": "expense-other",
+      "name": "その他支出",
+      "type": "expense",
+      "color": "#dc2626"
+    }
+  ],
+  "settings": {
+    "currency": "¥",
+    "dateFormat": "YYYY-MM-DD",
+    "theme": "light"
+  },
+  "version": "1.0.0",
+  "lastUpdated": "2025-06-23T03:11:52.658Z"
+}
